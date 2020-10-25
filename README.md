@@ -1,7 +1,7 @@
 # app_projeto_bimestre
 
  Projeto avaliativo da matéria "Programação Mobile".
- 
+
     Esta sendo criado um aplicativo para controle de estoque e controle de caixa para uma pequena mercearia. 
 
     No momento ele tem 6 telas:
@@ -26,7 +26,7 @@
                 - Validade => Validade da mercadoria. 
         - Grafico Diario =>
 
-        - Informação => Pagina com informação sobre o desenvolvedor e sobre a criação do aplicativo, contendo email para contato com o       desenvolvedor
+        - Informação => Pagina com informação sobre o desenvolvedor e sobre a criação do aplicativo, contendo email para contato com o  Desenvolvedor
 
 ## Getting Started
 
