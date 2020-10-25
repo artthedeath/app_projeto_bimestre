@@ -1,19 +1,31 @@
 # app_projeto_bimestre
 
  Projeto avaliativo da matéria "Programação Mobile".
+ 
     Esta sendo criado um aplicativo para controle de estoque e controle de caixa para uma pequena mercearia. 
+
     No momento ele tem 6 telas:
+
         - Login => Aonde a pessoa coloca seu usuario e senha, para poder acessar o aplicativo.
+
         - Menu => Dá acesso as demais telas do aplicativo.
+
         - Registro de caixa =>
+
         - Cadastrar de Produto => Aqui você encontrará os campos para adicionar um novo produto.
+
             Sendo eles:
                 - Produto => nome do produto.(Futuramente vai ter um meio de validação para não se poder criar cadastro de um mesmo produto)
+
                 - Valor de compra => valor que a mercadoria foi adquirida.
+
                 - Valor de Venda => Valor que a mercadoria será vendida. (Futuramente poderá ser adicionado um meio para fazer o calculo do valor de venda automaticamente)
+
                 - Quantidade => Quantidade de mercadoria comprada. 
+
                 - Validade => Validade da mercadoria. 
         - Grafico Diario =>
+
         - Informação => Pagina com informação sobre o desenvolvedor e sobre a criação do aplicativo, contendo email para contato com o       desenvolvedor
 
 ## Getting Started
