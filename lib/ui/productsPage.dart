@@ -1,16 +1,17 @@
 import 'package:flutter/material.dart';
 
-class CashRegisterPage extends StatefulWidget {
+
+class ProductsPage extends StatefulWidget {
   @override
-  _CashRegisterPageState createState() => _CashRegisterPageState();
+  _ProductsPageState createState() => _ProductsPageState();
 }
 
-class _CashRegisterPageState extends State<CashRegisterPage> {
+class _ProductsPageState extends State<ProductsPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title:Text('Registro de Caixa'),
+       appBar: AppBar(
+        title: Text("Produtos"),
         centerTitle: true,
         backgroundColor: Colors.blue[600],
         actions: [
@@ -32,18 +33,8 @@ class _CashRegisterPageState extends State<CashRegisterPage> {
             radius: 1.3
           )
         ),
-        child:Column(
-          children: [
-            FloatingActionButton(
-              backgroundColor: Colors.red,
-              child: Text("+",
-              style: TextStyle(fontSize: 30, color: Colors.black),),  
-              onPressed: (){}
-            )
-          ],
-        ),
+        
       ),
-      
     );
   }
 }

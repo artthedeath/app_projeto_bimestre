@@ -23,7 +23,7 @@ class _RegisterPageState extends State<RegisterPage> {
 
       ),
       body: Container(
-        padding: EdgeInsets.all(10),
+        padding: EdgeInsets.all(20),
         height: MediaQuery.of(context).size.height*0.96,
         width: double.infinity,
         decoration: BoxDecoration(
@@ -33,38 +33,73 @@ class _RegisterPageState extends State<RegisterPage> {
           )
         ),
         child:Column(
+          
           children:[
             TextFormField(
               decoration: InputDecoration(
-                labelText: "Produto",
-                labelStyle: TextStyle(color: Colors.black87)
-              ),
+                    filled: true,
+                    fillColor: Colors.white,
+                    labelText:"Produto:",
+                    labelStyle: TextStyle(color: Colors.black),
+                    border: OutlineInputBorder(
+                      borderRadius: BorderRadius.circular(30),
+                    ),
+                  ),
             ),
+             Divider(),
             TextFormField(
               decoration: InputDecoration(
-                labelText: "Valor de compra",
-                labelStyle: TextStyle(color: Colors.black87)
-              ),
+                    filled: true,
+                    fillColor: Colors.white,
+                    labelText:"Valor de compra:",
+                    labelStyle: TextStyle(color: Colors.black),
+                    border: OutlineInputBorder(
+                      borderRadius: BorderRadius.circular(30),
+                    ),
+                  ),
             ),
+             Divider(),
             TextFormField(
               decoration: InputDecoration(
-                labelText: "Valor de venda",
-                labelStyle: TextStyle(color: Colors.black87)
-              ),
+                    filled: true,
+                    fillColor: Colors.white,
+                    labelText:"Valor de venda:",
+                    labelStyle: TextStyle(color: Colors.black),
+                    border: OutlineInputBorder(
+                      borderRadius: BorderRadius.circular(30),
+                    ),
+                  ),
             ),
+            Divider(),
             TextFormField(
               decoration: InputDecoration(
-                labelText: "quantidade",
-                labelStyle: TextStyle(color: Colors.black87)
-              ),
-            ), 
+                    filled: true,
+                    fillColor: Colors.white,
+                    labelText:"Quantidade:",
+                    labelStyle: TextStyle(color: Colors.black),
+                    border: OutlineInputBorder(
+                      borderRadius: BorderRadius.circular(30),
+                    ),
+                  ),
+            ),
+            Divider(), 
             TextFormField(
               decoration: InputDecoration(
-                labelText: "Validade",
-                labelStyle: TextStyle(color: Colors.black87)
-              ),
-            ), 
+                    filled: true,
+                    fillColor: Colors.white,
+                    labelText:"Validade:",
+                    labelStyle: TextStyle(color: Colors.black),
+                    border: OutlineInputBorder(
+                      borderRadius: BorderRadius.circular(30),
+                    ),
+                  ),
+            ),
+             Divider(), 
             RaisedButton(
+              color: Colors.red,
+              shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(20)
+              ),
               child: Text("Adicionar!"),
               onPressed: (){}
             ) 

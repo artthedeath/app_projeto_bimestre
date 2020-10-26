@@ -43,21 +43,38 @@ class _LoginPageState extends State<LoginPage> {
             child: Column(
               children: [
                 ClipRRect(
-                      borderRadius: BorderRadius.circular(1000),
-                      child: Image.asset("imagens/felpudoCorp2.png", scale:0.8)),
+                  borderRadius: BorderRadius.circular(1000),
+                  child: Image.asset("imagens/felpudoCorp2.png", scale:0.8)
+                ),
+                Divider(),
                 TextFormField(
                   decoration: InputDecoration(
-                    labelText:"Login",
+                    filled: true,
+                    fillColor: Colors.white,
+                    labelText:"Login:",
+                    labelStyle: TextStyle(color: Colors.black),
+                    border: OutlineInputBorder(
+                      borderRadius: BorderRadius.circular(30),
+                    ),
                   ),
                 ),
-                
+                Divider(),
                 TextFormField(
                   decoration: InputDecoration(
-                    labelText:"Senha",
+                    filled: true,
+                    fillColor: Colors.white,
+                    labelText:"Senha:",
+                    labelStyle: TextStyle(color: Colors.black),
+                    border: OutlineInputBorder(
+                      borderRadius: BorderRadius.circular(30),
+                    ),
                   ),
                   obscureText: true,
                 ),
+                Divider(),
                 RaisedButton(
+                  color: Colors.red,
+                  shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(30)),
                   child: Text("Login"),
                   onPressed: (){
                     Navigator.pushNamed(context, 'mainPage');

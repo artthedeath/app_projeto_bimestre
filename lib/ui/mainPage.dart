@@ -43,6 +43,7 @@ class _MainPageState extends State<MainPage> {
                 Navigator.pushNamed(context, 'cashRegister');
               },
             ),
+             Divider(),
             ListTile(
               leading: Icon(Icons.app_registration),
               title: Text("Cadastrar Produto"),
@@ -50,13 +51,23 @@ class _MainPageState extends State<MainPage> {
                 Navigator.pushNamed(context, 'register');
               },
             ),
+             Divider(),
+            ListTile(
+              leading: Icon(Icons.app_registration),
+              title: Text("Produtos"),
+              onTap: (){
+                Navigator.pushNamed(context, 'products');
+              },
+            ),
+             Divider(),
             ListTile(
               leading: Icon(Icons.graphic_eq),
-              title: Text("Grafico do Dia"),
+              title: Text("Dashboard"),
               onTap: (){
                 Navigator.pushNamed(context, 'dailyChart');
               },
-            )
+            ),
+            Divider(),
           ],
         ),
       ),
